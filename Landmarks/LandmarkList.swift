@@ -18,6 +18,7 @@ struct LandmarkList: View {
                 }
             }
         .navigationBarTitle(Text("Landmarks"))
+            
         }
         
     }

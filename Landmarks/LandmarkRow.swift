@@ -16,8 +16,15 @@ struct LandmarkRow: View {
             landmark.image
                 .resizable()
                 .frame(width: 50, height: 50)
+                .padding(.leading, 10)
+            
             Text(landmark.name)
             Spacer()
+            
+            Image(systemName: "star.fill")
+                .imageScale(.medium)
+                .foregroundColor(.yellow)
+                .padding(.trailing, 10)
         }
     }
 }
@@ -28,6 +35,6 @@ struct LandmarkRow_Previews: PreviewProvider {
             LandmarkRow(landmark: landmarkData[0])
             LandmarkRow(landmark: landmarkData[1])
         }
-        .previewLayout(.fixed(width: 300, height: 70))
+        .previewLayout(.fixed(width: 300, height: 70))    
     }
 }

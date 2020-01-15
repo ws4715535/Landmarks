@@ -34,6 +34,8 @@
 		54E27FB723CEED9600E84EE8 /* hiddenlake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54E27FAA23CEED9600E84EE8 /* hiddenlake.jpg */; };
 		54E27FB823CEED9600E84EE8 /* umbagog.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54E27FAB23CEED9600E84EE8 /* umbagog.jpg */; };
 		54E27FBA23CEFC2800E84EE8 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E27FB923CEFC2800E84EE8 /* UserData.swift */; };
+		54E27FBC23CF096200E84EE8 /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E27FBB23CF096200E84EE8 /* Badge.swift */; };
+		54E27FBE23CF09B000E84EE8 /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E27FBD23CF09B000E84EE8 /* HexagonParameters.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +80,8 @@
 		54E27FAA23CEED9600E84EE8 /* hiddenlake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hiddenlake.jpg; sourceTree = "<group>"; };
 		54E27FAB23CEED9600E84EE8 /* umbagog.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = umbagog.jpg; sourceTree = "<group>"; };
 		54E27FB923CEFC2800E84EE8 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		54E27FBB23CF096200E84EE8 /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
+		54E27FBD23CF09B000E84EE8 /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +128,8 @@
 				5457F7DB23CDC0FC002CDADD /* LandmarkList.swift */,
 				542CD8C923CC67F30015A545 /* AppDelegate.swift */,
 				5457F7BB23CDB369002CDADD /* LandmarkDetail.swift */,
+				54E27FBB23CF096200E84EE8 /* Badge.swift */,
+				54E27FBD23CF09B000E84EE8 /* HexagonParameters.swift */,
 				542CD8CB23CC67F30015A545 /* SceneDelegate.swift */,
 				5457F78423CD95C9002CDADD /* MapView.swift */,
 				5457F78223CD905F002CDADD /* CircleImage.swift */,
@@ -297,8 +303,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54E27FBE23CF09B000E84EE8 /* HexagonParameters.swift in Sources */,
 				5457F7B823CDAC66002CDADD /* Data.swift in Sources */,
 				542CD8CA23CC67F30015A545 /* AppDelegate.swift in Sources */,
+				54E27FBC23CF096200E84EE8 /* Badge.swift in Sources */,
 				5457F78323CD905F002CDADD /* CircleImage.swift in Sources */,
 				5457F78523CD95C9002CDADD /* MapView.swift in Sources */,
 				5457F7BC23CDB369002CDADD /* LandmarkDetail.swift in Sources */,

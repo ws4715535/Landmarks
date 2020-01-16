@@ -42,7 +42,7 @@ struct Badge: View {
                         )
                     }
                 }
-                .fill(Color.black)
+                .fill(Color.orange)
             }
         }
 }
